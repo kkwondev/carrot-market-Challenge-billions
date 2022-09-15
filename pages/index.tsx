@@ -1,15 +1,11 @@
 import axios from "axios";
-import { spawn } from "child_process";
 import type {
   GetServerSideProps,
   InferGetServerSidePropsType,
   NextPage,
 } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+
 import Item from "../components/item";
-import styles from "../styles/Home.module.css";
 
 export interface billion {
   id: string;

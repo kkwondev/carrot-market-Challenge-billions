@@ -7,7 +7,7 @@ interface layoutProps {
 const Layout = ({ children }: layoutProps) => {
   return (
     <div className="bg-black py-10">
-      <div className=" max-w-[1200px] mx-auto">{children}</div>
+      <div className=" max-w-[1500px] mx-auto">{children}</div>
     </div>
   );
 };
