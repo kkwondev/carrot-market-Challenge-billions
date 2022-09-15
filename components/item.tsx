@@ -6,7 +6,6 @@ import Image from "next/image";
 const Item = ({ id, name, squareImage, netWorth, industries }: billion) => {
   const roundNetWorth = Math.round(netWorth).toString();
   const billonResult = roundNetWorth[0] + roundNetWorth[1] + roundNetWorth[2];
-  console.log(squareImage);
 
   return squareImage !== "https:undefined" ? (
     <Link href={`/billion/${id}`}>
