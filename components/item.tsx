@@ -8,7 +8,7 @@ const Item = ({ id, name, squareImage, netWorth, industries }: billion) => {
   const billonResult = roundNetWorth[0] + roundNetWorth[1] + roundNetWorth[2];
   return (
     <Link href={`/billion/${id}`}>
-      <a>
+      <a className="hover:scale-105 transition-all">
         {squareImage.includes("undefined") ? (
           <div className="max-w-[270px] max-h-[270px] bg-slate-400" />
         ) : (
